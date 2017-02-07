@@ -4,4 +4,5 @@ Consiste en el añadido de productos, en este caso de videojuegos, a un carrito 
 Nos interesa la implementación de la aplicación con Servlets de Java y el uso de sesiones y cookies sobre la misma.
 
 Asignatura: Desarrollo de Aplicaciones Web en Entorno Servidor.
+
 Fecha: 30.01.17
