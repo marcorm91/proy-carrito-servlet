@@ -1,0 +1,137 @@
+@CHARSET "UTF-8";
+
+body {
+ 	background-color: #f1f1f1;
+}
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.cabecera {
+	cursor: default;
+	text-align: center;
+	color: #fff;
+	font-size: 10em;
+	font-weight: bold;
+	font-family: Helvetica;
+	text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+.cabecera b{
+	color:#000;
+}
+
+.menu{
+	width:98%;
+	height: 4em;
+	background-color: #D8D8D8;
+	margin: 1em;
+}
+
+.contenedor{
+	text-align: center;
+	margin-top: 5em;
+}
+
+.contenedor img{
+	margin: 1em;       
+}
+
+.contenedor_juegos section{
+	width: 100%;
+	display: table;
+}
+
+.contenedor_juegos article{
+	width: 31.3333%;
+	background-color: #F3E2A9;
+	border: 4px solid #481019;
+	display: table-cell;
+	padding: 1em;
+}
+
+article img {
+	text-align: center;
+	width: 10em;	height: 13.5em;
+
+}
+
+.art {
+	text-align: center;
+}
+
+.descripcion{
+	padding: 0.5em;
+	text-align: justify;
+	float: right;
+	border: solid 2px #000;
+	margin: 1em;
+}
+
+.pag_juegos {
+	font-size: 5em;
+}
+
+.menu {
+	text-align: center;
+	font-weight: bold;
+}
+
+#carrito{
+	width: 4em;
+	margin-right: -1.5em;
+	margin-bottom: -2.9em;
+}
+
+a span{
+	background-color: #D7DF01;
+	color: #0B3B0B;
+	border-radius: 20px;
+}
+
+.contenedorCarrito{
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.tablaCarrito{
+	padding: 1em;
+}
+
+.contenedorCarrito .tablaCarrito{
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	border: 1px solid black;
+	box-shadow: 5px -9px 3px #000; 
+}
+
+.tablaCarrito th{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.tablaCarrito td{
+	background-color: #E6E6E6;
+}
+
+.tablaCarrito .eliminar a{
+	text-decoration: none;
+	color: red;
+}
+
+#comprar{
+	background-color: #BDBDBD;
+	width: 50%;
+	margin: 0 auto;
+	border: 1px solid #FFF;
+	border-radius: 10px;
+	box-shadow: 5px -9px 3px #000; 
+	margin-top: 2em;
+	padding: 1em;
+	text-decoration: none;
+	color: black;
+}
